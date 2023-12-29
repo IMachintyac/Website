@@ -20,4 +20,7 @@ function winnerSelector(){
     }
 var imageElement1 = document.querySelectorAll(".img1")[0].setAttribute("src",urlArray[randomNumber1]);
 var imageElement2 = document.querySelectorAll(".img1")[1].setAttribute("src",urlArray[randomNumber2]);
-winnerSelector();
+window.onload = function() {
+  // Your function call here
+  winnerSelector();
+};
