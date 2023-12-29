@@ -1,6 +1,6 @@
 var randomNumber1 = Math.random();
 var randomNumber2 = Math.random();
-var urlArray = ["./dice1.png","./dice2.png","./dice2.png","./dice3.png","./dice4.png","./dice5.png","./dice6.png"];
+var urlArray = ["./dice1.png","./dice2.png","./dice3.png","./dice4.png","./dice5.png","./dice6.png"];
 randomNumber1=(randomNumber1)*urlArray.length;
 randomNumber1=Math.floor(randomNumber1);
 
